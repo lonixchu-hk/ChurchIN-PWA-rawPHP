@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Church IN!</title>
+        <meta charset="utf-8"> 
+        <link rel="manifest" href="manifest.json">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="icon" href="image/favicon.png">
+        <link rel="apple-touch-icon" href="image/favicon.png">
+        <meta name="theme-color" content="#8BC32C">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/plugins/bootstrap-4.0.0-dist/bootstrap.min.css">
+        <link rel="stylesheet" href="css/plugins/jBox-0.5.4/jBox.all.min.css">
+        <link rel="stylesheet" href="css/plugins/jBox-0.5.4/jBox.min.css">
+        <link rel="stylesheet" href="css/plugins/jBox-0.5.4/plugins/jBox.Confirm.css">
+        <link rel="stylesheet" href="css/plugins/jBox-0.5.4/plugins/jBox.Notice.css">
+        <link rel="stylesheet" href="css/plugins/jBox-0.5.4/plugins/jBox.Image.css">
+        <link rel="stylesheet" href="css/plugins/jBox-0.5.4/themes/jBox.NoticeFancy.css">
+        <link rel="stylesheet" href="css/plugins/bootstrap-select-1.13.14/bootstrap-select.min.css">
+
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+
+        <body>
+
+            <div class="content">
+                <!-- nav bar and compnay name -->
+                <div id="loading_layer_container">
+                    <div id="loading_layer"></div>
+                    <img id="loading_success" src="image/loading_success.gif">
+                    <img id="loading" src="image/loading.gif">
+                </div>
+
+                <!-- nav bar and compnay name -->
+                <div id="navigation_bar">
+                    <div id="back_btn"><i class="fas fa-arrow-left"></i></div>
+                    <div id="system_name"><img src="image/logo_landscape.png"></div>
+                    <div id="navigation_btn"><img src="image/navigation_btn.png"></div>
+                </div>
+
+                <!-- navigation menu -->
+                <div id="navigation_layer_container">
+                    <div id="navigation_layer"></div>
+                    <div id="navigation_menu">
+                        <div id="nav_container">
+                            <div id="nav_title">
+                                <div id="member_intro">
+                                    <div id="member_image"><img class="profile_pic img-circle" src="image/member_image/default.png"></div>
+                                    <div id="slide_name">
+                                        <div>歡迎，</div>
+                                        <div id="member_id_display" class="{{isNewUser}}"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="menu">
+                                <div id="menu_index_page" class='nav_option' style='cursor: pointer;'>
+                                    <i class="fas fa-home"></i>
+                                    <div class='nav_option_text' style="padding-left: 6px">首頁</div>
+                                </div>
+                                <div id="menu_qrscanner_page" class='nav_option' style='cursor: pointer;'>
+                                    <i class="fas fa-qrcode"></i>
+                                    <div class='nav_option_text'>掃描QR Code</div>
+                                </div>
+                                <div id="menu_setting_page" class='nav_option' style='cursor: pointer;'>
+                                    <i class="fas fa-cog"></i>
+                                    <div class='nav_option_text'>設定</div>
+                                </div>
+
+                                <hr>
+
+                                <div id="menu_privacy_page" class='nav_option' style='cursor: pointer;'>
+                                    <i class="fas fa-eye"></i>
+                                    <div class='nav_option_text'>私隱政策</div>
+                                </div>
+                                <div id="menu_copyright_page" class='nav_option' style='cursor: pointer;'>
+                                    <i class="fas fa-copyright"></i>
+                                    <div class='nav_option_text'>知識產權</div>
+                                </div>
+                                <div id="menu_disclaimer_page" class='nav_option' style='cursor: pointer;'>
+                                    <i class="fas fa-exclamation-circle"></i>
+                                    <div class='nav_option_text'>免責聲明</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="home" class="main_content">
+
+                    <div id="title_name">
+                        實體聚會
+                    </div>
+                
+                    <div id="banner_slideshow_block">
+                        <!-- <img src="image/banner/1.jpg"> -->
+                        <img class="slide" src="image/banner/2.jpg">
+                        <img class="placeholder" src="image/banner/2.jpg">
+                    </div>
+                
+                    <div id="bible_block">
+                        <div>
+                            你要專心仰賴耶和華，不可倚靠自己的聰明， 在你一切所行的事上都要認定他，他必指引你的路。
+                        </div>
+                        <div>
+                            箴言 3:5-6
+                        </div>
+                    </div>
+                
+                    <div id="notiifcation_block">
+                        您好，歡迎您使用《實體聚會》，請您喺正式開始使用前，喺設定到填寫你嘅姓名同電話號碼先啦！
+                    </div>
+                
+                    <div id="btn_group">
+                        <button id="checkIn" class="btn btn-primary btn-lg btn-block">CHURCH IN！</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- footer -->
+            <footer  id="footer-block">
+                <div id="privacy">
+                    <a href="privacy.php">私隱政策</a> | 
+                    <a href="copyright.php">知識產權</a> | 
+                    <a href="disclaimer.php">免責聲明</a>
+                </div>
+                <div id="copyright">&copy; {{churchNameEn}} | All Rights Reserved<br>Powered by Top Creative Ministries</div>
+            </footer >
+            
+            <script>
+                var page = "index";
+            </script>
+
+            <script src="js/plugins/jquery/jquery-3.1.1.min.js"></script>
+            <script src="js/plugins/html2canvas/html2canvas.min.js"></script>
+            <script src="js/plugins/bootstrap-4.0.0-dist/bootstrap.min.js"></script>
+            <script src="js/plugins/bootstrap-select-1.13.14/bootstrap-select.min.js"></script>
+            <script src="js/plugins/jBox-0.5.4/jBox.all.min.js"></script>
+            <script src="js/plugins/jBox-0.5.4/plugins/jBox.Notice.min.js"></script>
+            <script src="js/plugins/jBox-0.5.4/plugins/jBox.Confirm.min.js"></script>
+            <script src="js/plugins/jBox-0.5.4/plugins/jBox.Image.min.js"></script>
+            <script src="js/plugins/jsqrscanner/jsqrscanner.nocache.js"></script>
+            <script src="js/plugins/qr-scanner-master/qr-scanner.umd.min.js"></script>
+            <script src="js/plugins/qr-scanner-master/qr-scanner-worker.min.js"></script>
+
+            <!-- pages -->
+            <script src="js/common.js"></script>
+            <script src="js/menu.js"></script>
+            <script src="js/index.js"></script>
+
+
+        </body>
+</html>

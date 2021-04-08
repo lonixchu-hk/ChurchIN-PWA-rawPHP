@@ -1,0 +1,23 @@
+{
+  "name": "Church IN",
+  "short_name": "Church IN",
+  "icons": [
+    {
+      "src": "/image/favicon_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/favicon_512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#8BC32C",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#8BC32C",
+  "description": "Weather forecast information"
+}
